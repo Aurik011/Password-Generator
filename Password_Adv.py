@@ -50,7 +50,7 @@ if prompt.lower() != "yes":
 character="1234567890!@#$%^&*()"
 
 print("Okay, Generating passwords for the second time: ")
-print("Character only passwords: ")
+print("Numbers and Symbols only passwords: ")
 
 amount = input("Amount of passwords that we will generate:  ")
 amount = int(amount) # must be an integer
